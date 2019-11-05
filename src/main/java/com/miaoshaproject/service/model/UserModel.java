@@ -11,7 +11,7 @@ public class UserModel {
 
     private Integer id;
     @NotBlank(message = "姓名不能为空！")
-    @Length(min = 3, message = "姓名长度需大于3")
+    @Length(min = 2, message = "姓名长度需大于3")
     private String name;
     private Byte gender;
     @NotNull(message = "年龄不能为空！")

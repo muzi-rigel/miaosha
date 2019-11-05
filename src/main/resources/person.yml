@@ -1,0 +1,14 @@
+#  lastName: zhang
+#  age: 16
+#    adult: false
+
+person2:
+  birth: 2003/01/05
+  maps: {k1: v1, k2: v2}
+  lists:
+    -li1
+    -wang2
+    -hei3
+  dog:
+    name: wangcai
+    age: 3
